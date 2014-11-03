@@ -83,3 +83,13 @@ Mailer Error: The following From address failed: test@dispostable.com : MAIL FRO
 >>>>>>>>>>>>>>>>>>>>>>>> CHILD EXIT CALL
 $
 ```
+
+Another scenario is that fter a while, like 3-4 childs I get this:
+
+```
+>>>>>>>>>>>>>>>>>>>>>>>> CHILD BEGIN 3
+>>>>>>>>>>>>>>>>>>>>>>>> Email call begin 3
+PHP Warning:  fwrite(): SSL: Broken pipe in /var/www/php_stream_socket_test/phpmailer/class.smtp.php on line 826
+Mailer Error: The following From address failed: test@dispostable.com : MAIL FROM command failed,,
+>>>>>>>>>>>>>>>>>>>>>>>> Email call end 3
+```
