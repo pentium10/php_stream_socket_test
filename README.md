@@ -84,7 +84,7 @@ Mailer Error: The following From address failed: test@dispostable.com : MAIL FRO
 $
 ```
 
-Another scenario is that fter a while, like 3-4 childs I get this:
+Another scenario is that after a while, like 3-4 childs I get this error message.
 
 ```
 >>>>>>>>>>>>>>>>>>>>>>>> CHILD BEGIN 3
